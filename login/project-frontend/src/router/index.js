@@ -31,10 +31,6 @@ const router = createRouter({
       path: '/index',
       name: 'index',
       component: () => import('@/views/IndexView.vue')
-    },{
-      path: '/qq',
-      name: 'qq',
-      component: () => import('@/views/Log/qqqsd.vue')
     }
   ]
 })
